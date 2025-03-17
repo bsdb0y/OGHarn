@@ -1,0 +1,5 @@
+/output
+/demos/*/lib*
+extras/AFLplusplus
+extras/Multiplier
+extras/llvm.sh

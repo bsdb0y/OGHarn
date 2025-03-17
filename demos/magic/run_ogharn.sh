@@ -1,0 +1,1 @@
+ogharn.py -i $PWD -o $PWD/out -n 3 --m $PWD/lib.db -h magic.h file.h -r b -d -f -as -c $PWD/config.yaml

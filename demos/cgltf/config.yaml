@@ -1,0 +1,1 @@
+add_define_to_harness: "#define CGLTF_IMPLEMENTATION"

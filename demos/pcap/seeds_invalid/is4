@@ -1,0 +1,1 @@
+tcp[tcpflags]&tcp-sy--943* != 0 or tcp[cpflags]&tcp-fin  or tp[tcpflagtcp-rst != 0

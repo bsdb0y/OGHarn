@@ -1,0 +1,1 @@
+#### Note: For fuzzing raylib harnesses, the -e '.png' command line argument is necessary.

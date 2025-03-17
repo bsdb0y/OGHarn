@@ -1,0 +1,116 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for 3dsmax 2020 v20200721.1",
+        "copyright": "Public domain (CC0). Toy car model created by Guido Odendahl. Materials edited by Eric Chadwick."
+    },
+    "extensionsUsed": 
+        "KHR_texture_transform",
+        "KHR_mat_transmission",
+        "KHR_materials_sheen"
+    ],
+    "scene": 0,
+    "scenes: [
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "ToyCar",
+            "mesh": 0,
+            "rotation": [
+                0.7071068,
+                0,
+                0,
+                0.7071067
+            ],
+            "scale": [
+                0.0001,
+                0.0001,
+                0.0001
+            ]
+        },
+        {
+            
+                0.7071067
+            ],
+            "scale": [
+                0.0001,
+                0.0001,
+                0.0001
+            ]
+        },
+        {
+            "name": "Glass",
+            "mesh": 2,
+            "rotation": [
+                0.7071068,
+                0,
+                0,
+                0.7071067
+            ],
+            "scale": [
+                0.0001,
+                0.0001,
+                0.0001
+            ]
+        },
+        {
+            "camera": 0,
+            "translation": [
+                -0.0169006381,
+                0.0253599286,
+                0.0302319955
+            ],
+            "rotation": [
+                -0.330993533,
+                -0.274300218,
+                -0.101194724,
+                0.8971969
+            ],
+            "scale": [
+                1.00000024,
+                1,
+                1.00000012
+            ],
+            "name": "Camera001"
+        },
+        {
+            "camera": 1,
+            "translation": [
+                -0.04332856,
+                0.0235993266,
+                0.0760967
+            ],
+            "rotation": [
+                -0.12160936,
+                -0.2651013,
+                -0.03372518,
+                0.9559263
+            ],
+            "scale": [
+                0.99999994,
+                1.00000036,
+                1.00000024
+            ],
+            "name": "Camera002"
+        },
+        {
+            "camera": 2,
+            "translation": [
+                -0.0121543175,
+                0.0101683857,
+                0.0269274339

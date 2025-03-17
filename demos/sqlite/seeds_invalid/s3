@@ -1,0 +1,1 @@
+ * FROM v10 LEFT JOIN v20 USING (a);

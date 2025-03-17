@@ -1,0 +1,9 @@
+blacklist:
+- pcap_compile_nopcap
+- pcap_lookupdev
+- pcap_fileno
+- pcap_open_live
+- pcap_dump_file
+- pcap_activate
+- pcap_dump
+- pcap_file

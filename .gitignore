@@ -1,0 +1,10 @@
+/output
+/demos/*/lib*
+**/.DS_Store
+/demos/*/bin
+/demos/*/mx*
+/demos/*/out
+/extras/AFLplusplus
+/extras/llvm.sh
+/extras/multiplier
+src/__pycache__

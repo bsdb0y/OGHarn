@@ -1,0 +1,9 @@
+blacklist:
+
+preamble_func: magic_load 
+
+arg_keys:
+  magic_load:
+    - {"index": 1, "value": "NULL"} 
+  magic_open:
+    - {"index": 0, "value": "MAGIC_NONE"} 

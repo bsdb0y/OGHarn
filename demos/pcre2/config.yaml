@@ -1,0 +1,1 @@
+add_define_to_harness: "#ifndef PCRE2_CODE_UNIT_WIDTH\n#define PCRE2_CODE_UNIT_WIDTH 8\n#endif"

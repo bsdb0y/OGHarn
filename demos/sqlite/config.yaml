@@ -1,0 +1,13 @@
+blacklist:
+- sqlite3_mprintf
+- sqlite3_vmprintf
+- sqlite3_snprintf
+- sqlite3_vsnprintf
+- sqlite3_open16
+- sqlite3_open_v2
+
+preamble_func: sqlite3_open 
+
+arg_keys:
+  sqlite3_open:
+    - {"index": 0, "value": "\":memory:\""} # 0th arg to sqlite3_open should be ":memory:" to avoid filesystem overhead

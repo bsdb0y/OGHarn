@@ -1,0 +1,5 @@
+blacklist:
+- gzvprintf
+- gzprintf
+- gzfwrite
+- gzfread
