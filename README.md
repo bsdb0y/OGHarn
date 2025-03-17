@@ -43,7 +43,7 @@ Our original paper-version artifact is located at: https://zenodo.org/records/14
 # Installation
 OGHarn relies on the following tools, which must both be installed to the `/extras` directory:
 * [Multiplier](https://github.com/trailofbits/multiplier): a code indexer used in OGHarn's static analysis of the library under test.
-* [AFL++](https://github.com/AFLPlusPlus): a grey-box fuzzer used in OGHarn's harness testing and code coverage analysis.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus): a grey-box fuzzer used in OGHarn's harness testing and code coverage analysis.
 
 To install them, run either `/extras/install_dependencies.sh`, or use our available [Dockerfile](Dockerfile).
 
