@@ -31,6 +31,9 @@ class Index_Target_Header:
                 file_queue.append(file)
 
         # get the directory the header files are stored in
+        if not len(file_queue):
+            raise ValueError("Indexed library does not contain files - The supplied .db file is likely malformed or incomplete.")
+
         base_path = "/".join(self.get_file_name(file_queue[0]).split("/")[:-1])
 
         if self.recurse:
